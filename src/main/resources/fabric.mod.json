@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tpamod",
+  "version": "${version}",
+  "name": "TPA Mod",
+  "description": "Automatic TPA mod with GUI",
+  "authors": [
+    "TRUBEL448"
+  ],
+  "contact": {
+    "sources": "https://github.com/TRUBEL448/fabric-tpa-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.trubel.tpamod.TPAMod"
+    ],
+    "client": [
+      "com.trubel.tpamod.client.TPAClientMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}"
+  }
+}
